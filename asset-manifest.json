@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/sairamgandrothu/online-assignment-submission-and-grading-system-frontend/static/css/main.06353924.css",
+    "main.js": "/sairamgandrothu/online-assignment-submission-and-grading-system-frontend/static/js/main.7f396d46.js",
+    "index.html": "/sairamgandrothu/online-assignment-submission-and-grading-system-frontend/index.html",
+    "main.06353924.css.map": "/sairamgandrothu/online-assignment-submission-and-grading-system-frontend/static/css/main.06353924.css.map",
+    "main.7f396d46.js.map": "/sairamgandrothu/online-assignment-submission-and-grading-system-frontend/static/js/main.7f396d46.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.06353924.css",
+    "static/js/main.7f396d46.js"
+  ]
+}
