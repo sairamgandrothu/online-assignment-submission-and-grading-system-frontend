@@ -1,0 +1,60 @@
+/* Table styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px; /* Added margin for spacing above the table */
+}
+
+th, td {
+  padding: 12px 20px;
+  text-align: left;
+  font-size: 1rem; /* Slightly increased font size for readability */
+}
+
+/* Graded row styling */
+.graded {
+  background-color: #dff0d8;
+  color: #3c763d;
+  font-weight: bold;
+  border-left: 5px solid #3c763d; /* Add a border to highlight graded rows */
+}
+
+/* Header styling */
+th {
+  background-color: #f4f4f4;
+  font-size: 1.1rem;
+  color: #555; /* Slightly darker text color for headers */
+  border-bottom: 2px solid #ddd; /* Subtle border for header separation */
+}
+
+/* Alternating row colors */
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:nth-child(odd) {
+  background-color: #fff;
+}
+
+/* Link styling */
+a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 500; /* Slightly bold links */
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #0056b3; /* Darker blue for hover effect */
+}
+
+/* Additional styling for better contrast and usability */
+td, th {
+  border-bottom: 1px solid #ddd; /* Subtle border for rows and columns */
+}
+
+tr:hover {
+  background-color: #f1f1f1; /* Light hover effect for rows */
+}
+

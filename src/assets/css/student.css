@@ -1,0 +1,65 @@
+/* Basic reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  margin: 0;
+  padding-top: 60px; /* Adjust based on navbar height */
+}
+
+/* Navbar styling */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: linear-gradient(135deg, #007bff, #0056b3); /* Gradient background */
+  color: #fff;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Stronger shadow for depth */
+  z-index: 1000;
+  border-bottom: 3px solid #003366; /* Border for a more defined look */
+}
+
+.navbar h1 {
+  font-size: 1.7rem;
+  color: #fff;
+  margin-right: 1rem;
+  font-weight: 600;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 2rem;
+}
+
+.navbar-link {
+  color: #f4f4f9;
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: color 0.3s, transform 0.3s;
+}
+
+.navbar-link:hover {
+  color: #cce1ff;
+  transform: scale(1.1); /* Slight zoom effect on hover */
+}
+
+/* Adjust page content to avoid being hidden behind navbar */
+.main-content {
+  margin-top: 80px; /* Adjust this value if the navbar height changes */
+}
+
+/* Smooth scrolling for the page */
+html {
+  scroll-behavior: smooth;
+}

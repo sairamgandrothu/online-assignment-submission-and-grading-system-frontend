@@ -1,0 +1,41 @@
+/* Body styling */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f4f4f9; /* Light background color for the body */
+  color: #333; /* Darker text for better contrast */
+  line-height: 1.6; /* Slightly increased line height for improved readability */
+  padding: 20px; /* Padding around the body for better spacing */
+}
+
+/* Code block styling */
+code {
+  font-family: 'Source Code Pro', Menlo, Monaco, Consolas, 'Courier New', monospace;
+  background-color: #282c34; /* Dark background for code blocks */
+  color: #f4f4f4; /* Light text color for contrast */
+  padding: 5px 10px; /* Padding inside code blocks */
+  border-radius: 4px; /* Rounded corners for the code block */
+  font-size: 1rem; /* Adjusted font size for better readability */
+  display: inline-block;
+  word-wrap: break-word; /* Ensures long code lines wrap properly */
+}
+
+/* Styling for larger code blocks */
+pre {
+  background-color: #282c34; /* Same dark background as inline code */
+  color: #f4f4f4;
+  padding: 15px;
+  border-radius: 8px; /* Rounded corners for preformatted blocks */
+  font-size: 1rem;
+  overflow-x: auto; /* Adds horizontal scrolling if the code is too wide */
+  white-space: pre-wrap; /* Wrapping of long lines */
+  word-wrap: break-word;
+}
+
+/* Optional: Add a subtle shadow effect for body */
+body {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Soft shadow to lift content */
+  border-radius: 5px; /* Slight rounded corners for the body */
+}

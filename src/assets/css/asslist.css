@@ -1,0 +1,54 @@
+.assignment-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+h2 {
+    text-align: center;
+    font-size: 28px;
+    color: #003366; /* A more professional color */
+    margin-bottom: 20px;
+    background: linear-gradient(135deg, #005f73, #0a9396); /* Gradient background */
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: 700;
+}
+
+.assignment-list li {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 280px; /* Adjust width */
+    text-align: left;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.assignment-list li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.assignment-list h3 {
+    margin: 0 0 12px 0;
+    font-size: 20px;
+    color: #003366;
+    font-weight: 600;
+}
+
+.assignment-list p {
+    margin: 8px 0;
+    color: #555555;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.assignment-list strong {
+    color: #003366;
+    font-weight: bold;
+}

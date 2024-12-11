@@ -1,0 +1,66 @@
+/* Navbar styling */
+.navbar {
+  background-color: #2b3e50;
+  color: white;
+  padding: 15px 2rem; /* Adjusted padding for better spacing */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Added shadow for depth */
+}
+
+.navbar h1 {
+  font-size: 1.8rem;
+  color: #fff;
+  font-weight: 600;
+  margin: 0;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 15px;
+}
+
+.navbar-link-button {
+  background-color: #3c8dbc;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px; /* Rounded button corners */
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s; /* Smooth hover transition */
+}
+
+.navbar-link-button:hover {
+  background-color: #337ab7; /* Darker blue on hover */
+  transform: translateY(-2px); /* Subtle lift effect */
+}
+
+.navbar-link {
+  color: #f4f4f4;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.navbar-link:hover {
+  color: #cce1ff; /* Light blue hover effect */
+}
+
+/* Page content padding */
+.tab-content {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px; /* Rounded corners for the tab content */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+/* Body adjustments */
+body {
+  margin: 0;
+  padding-top: 80px; /* Ensure content is not hidden under navbar */
+  font-family: 'Segoe UI', Tahoma, Geneva, sans-serif;
+  background-color: #f4f4f9; /* Light background for the body */
+  color: #333;
+}

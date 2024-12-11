@@ -1,0 +1,61 @@
+/* App container */
+.App {
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, sans-serif; /* Modern font */
+  background-color: #f4f4f9; /* Light background for a fresh feel */
+  color: #333; /* Dark text for better readability */
+}
+
+/* App logo styling */
+.App-logo {
+  height: 20vmin; /* Adjusted size for a balanced logo appearance */
+  pointer-events: none;
+  transition: transform 0.5s ease; /* Smooth transition for hover effect */
+}
+
+.App-logo:hover {
+  transform: scale(1.1); /* Slight scale-up effect on hover */
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+/* Header styling */
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(12px + 2vmin); /* Adjusted font size for better readability */
+  color: white;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Soft text shadow for better contrast */
+  padding: 20px;
+}
+
+/* Link styling */
+.App-link {
+  color: #61dafb;
+  text-decoration: none;
+  font-weight: 600; /* Slightly bold links for emphasis */
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.App-link:hover {
+  color: #21a1f1; /* Slightly darker blue for hover effect */
+  transform: translateY(-2px); /* Subtle lift effect on hover */
+}
+
+/* Keyframes for logo spin */
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
